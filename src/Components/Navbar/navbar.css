@@ -39,10 +39,62 @@
     padding: 1rem;
     width: 100%;
     top: 0;
-    left: 0;
+    left: -500%;
     box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
     transition: 0.5s ease;
     z-index: 1000;
+  }
+  .navbarSection .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .navbarSection .header .navBar .navLists .navItem {
+    padding: 1rem 0;
+  }
+  .navbarSection .header .navBar .navLists .navItem .navLink {
+    color: var(--TextColor);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .navbarSection .header .navBar .navLists .navItem .navLink:hover {
+    color: var(--PrimaryColor);
+  }
+  .navbarSection .header .navBar .navLists .headerBtns {
+    flex-direction: column;
+  }
+  .navbarSection .header .navBar .navLists .headerBtns .btn {
+    margin-top: 1rem;
+  }
+  .navbarSection .header .navBar .navLists .headerBtns .btn a {
+    font-weight: 600;
+  }
+  .navbarSection .header .navBar .navLists .headerBtns .btn a:hover {
+    color: var(--WhitePColor);
+  }
+  .navbarSection .header .navBar .navLists .headerBtns .loginBtn {
+    background: none;
+    border: 1px solid var(--PrimaryColor);
+  }
+  .navbarSection .header .navBar .navLists .headerBtns .loginBtn a {
+    color: var(--PrimaryColor);
+    transition: 1.2s ease;
+  }
+  .navbarSection .header .navBar .navLists .headerBtns .loginBtn:hover {
+    background: var(--HoverColor);
+  }
+  .navbarSection .header .navBar .closeNavbar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: var(--PrimaryColor);
+  }
+  .navbarSection .header .navBar .closeNavbar:hover .icon {
+    color: var(--HoverColor);
+  }
+  .navbarSection .header .activeNavbar {
+    left: 0;
   }
 }
 

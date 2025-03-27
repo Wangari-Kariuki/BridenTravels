@@ -11,8 +11,8 @@ const App = () => {
   return (
     <>
     <Navbar/>
-    {/* <Home/>
-    <Destinations/>
+    <Home/>
+    {/* <Destinations/>
     <Offers/>
     <About/>
     <Blog/>
