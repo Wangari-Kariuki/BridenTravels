@@ -10,9 +10,9 @@
   --inputColor: hsl(330, 13%, 97%);
 }
 
-.home {
+.homesection {
   height: 70vh;
-  background: linear-gradient(rgba(33, 33, 33, 0.522), url "../");
+  background-image: linear-gradient(rgba(33, 33, 33, 0), rgba(33, 33, 33, 0), url("../../Assets/Image 10.jpg"));
 }
 
 /*# sourceMappingURL=home.css.map */
