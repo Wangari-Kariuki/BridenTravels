@@ -3,7 +3,7 @@ import './home.css'
 
 const Home = () => {
   return (
-    <section className='homesection'>
+    <section className='home'>
       <div className='secContainer container'> 
         <div className='homeText'>
 
@@ -17,6 +17,28 @@ const Home = () => {
 
           <button className='btn'>
             <a href='#'>Explore now</a></button>
+        </div>
+
+        <div className='homeCard grid '>
+
+          <div className="locationDiv">
+             <label htmlFor="location">Location</label>
+             <input type ="text" placeholder = "Dream Destination" ></input>
+          </div>  
+
+          <div className="locationDiv">
+             <label htmlFor="distance">Location</label>
+             <input type ="text" placeholder = "l1/Meters" ></input>
+          </div>  
+
+          <div className="locationDiv">
+             <label htmlFor="location">Location</label>
+             <input type ="text" placeholder = "$140-$500" ></input>
+          </div>  
+
+          <button className ="btn">Search</button>
+
+
         </div>
       </div>
 

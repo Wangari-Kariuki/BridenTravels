@@ -10,8 +10,59 @@
     --inputColor: hsl(330, 13%, 97%);
 }
 
-.homesection {
+.home{
     height: 70vh;
-   background-image: linear-gradient(rgba(33,33,33,0), rgba(33,33,33,0), url('../../Assets/Image 10.jpg'));
-  
+    background: linear-gradient(rgba(33,33,33,0), rgba(33,33,33,0), url('../../Assets/Image 10.jpg'));
+    background-image: linear-gradient(rgba(33,33,33,0), rgba(33,33,33,0)), url('../../Assets/Image\ 10.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    left:10px;
+    right:10px;
+    justify-content: center;
+    align-items: center;
+
+.secContainer{
+    .homeText{
+        text-align:center;
+
+
+        .title{
+            color: var(--WhitePColor);
+            font-size: 2.5rem;
+        }
+        .subtitle{
+         color:var(--WhiteColorDeam);  
+         opacity: .9;
+        font-size: 13px;
+        font-weight:500;
+        padding: 1rem 0;
+        max-width: 70%;
+        text-align: center;
+        margin:auto;
+         }
+         .btn{
+            padding: .5rem 1.5rem;
+    
+         }
+
+
+
+
+
+    }
+
+    .homeCard{
+        width:80%;
+        border-radius: 2rem;
+        padding:2rem;
+        background: var(--WhitePColor);
+        position:absolute;
+        gap: 1 rem;
+        justify-content: center;
+
+    }
+ }
+    
+
 }
