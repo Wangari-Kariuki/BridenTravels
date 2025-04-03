@@ -26,13 +26,13 @@ const Home = () => {
              <input type ="text" placeholder = "Dream Destination" ></input>
           </div>  
 
-          <div className="locationDiv">
-             <label htmlFor="distance">Location</label>
+          <div className="distDiv">
+             <label htmlFor="distance">Distance</label>
              <input type ="text" placeholder = "l1/Meters" ></input>
           </div>  
 
-          <div className="locationDiv">
-             <label htmlFor="location">Location</label>
+          <div className="priceDiv">
+             <label htmlFor="location">Price</label>
              <input type ="text" placeholder = "$140-$500" ></input>
           </div>  
 

@@ -60,7 +60,52 @@
         position:absolute;
         gap: 1 rem;
         justify-content: center;
+        bottom: -6%;
+        transform: translate(-50%);
+        left:50%;
+        box-shadow:0 2px 8px 4px rgba(178, 178, 178, 0.45);
 
+
+        .locationDiv, .distDiv, .priceDiv{
+            width:100%;
+
+            label{
+                display:block;
+                color:var(--TextColor);
+                font-weight:500;
+                font-size:12px;
+                padding-bottom: .4rem;
+            }
+            input {
+                width:100%;
+                background:var(--inputColor);
+                border-radius: 10px;
+                border: none;
+                padding:10px;
+                font-size:10px;
+                font-weight: 500;
+                
+                
+                &::placeholder{
+                    font-size:13px;
+                    opacity:.4;
+                    font-weight:400;
+
+                }
+                &:focus{
+                    outline:none;
+
+                }
+            }
+
+           
+        }
+        .btn{
+            width:100%;
+            padding: .6rem 1.5rem;
+            color:var(--WhitePColor);
+            font-weight:600;
+        }
     }
  }
     
