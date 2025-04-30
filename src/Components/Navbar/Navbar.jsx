@@ -23,7 +23,7 @@ const removeNav = () => {
       <div className='header'>
         <div className='logoDiv'>
           <a href="#" className='logo'>
-            <h1 className='flex'><MdTravelExplore className="icon"/>
+            <h1 className='name flex'><MdTravelExplore className="icon"/>
             Briden </h1>
 
           </a>

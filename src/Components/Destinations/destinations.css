@@ -1,3 +1,69 @@
+:root {
+  --PrimaryColor: hsl(0, 82%, 22%);
+  --HoverColor: hsl(239, 78%, 30%);
+  --WhitePColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(26, 0%, 17%);
+  --TextColor: hsl(240, 1%, 47%);
+  --WhiteColorDeam: hsl(0, 0%, 93%);
+  --grayBg: hsl(0, 8%, 63%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 13%, 97%);
+}
 
+.popular {
+  padding-top: 15rem;
+}
+.popular .secContainer .secHeader {
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.popular .secContainer .secHeader .textDiv .secTitle {
+  color: var(--blackColor);
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.popular .secContainer .secHeader .textDiv p {
+  font-size: 13px;
+  color: var(--textColor);
+}
+.popular .secContainer .secHeader .iconDiv {
+  gap: 0.4rem;
+}
+.popular .secContainer .secHeader .iconDiv .icon {
+  padding: 0.7rem;
+  background: var(--greyText);
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+.popular .secContainer .secHeader .iconDiv .icon:hover {
+  background: var(--BlackColor);
+  column-rule: var(--WhitePColor);
+}
+.popular .secContainer .secHeader .iconDiv .lefticon {
+  background: var(--BlackColor);
+  color: var(--WhitePColor);
+}
+.popular .secContainer .secHeader .iconDiv .lefticon:hover {
+  background: var(--grayBg);
+  color: var(--BlackColor);
+}
+.popular .secContainer .secHeader .iconDiv .righticon {
+  background: var(--BlackColor);
+  color: var(--WhitePColor);
+}
+.popular .secContainer .secHeader .iconDiv .righticon:hover {
+  background: var(--grayBg);
+  color: var(--BlackColor);
+}
+.popular .secContainer .mainContent {
+  padding: 2rem 0;
+  gap: 1rem;
+}
+.popular .secContainer .mainContent .singleDetination {
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 3px 0px 3px rgba(22, 5, 5, 0.094);
+}
 
 /*# sourceMappingURL=destinations.css.map */

@@ -27,6 +27,9 @@
   align-items: center;
   justify-content: center;
 }
+.navbarSection .header .logoDiv .logo .name {
+  color: #590817;
+}
 .navbarSection .header .logoDiv .logo .icon {
   color: var(--PrimaryColor);
   font-size: 25px;
