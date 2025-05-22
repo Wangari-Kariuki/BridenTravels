@@ -120,7 +120,7 @@
 .popular .secContainer .mainContent .singleDetination .destfooter .number {
   font-size: 2rem;
   font-weight: 700;
-  color: var(-- PrimaryColor);
+  color: var(--PrimaryColor);
   position: relative;
   width: max-content;
 }
@@ -129,6 +129,9 @@
   position: absolute;
   background: var(--PrimaryColor);
   top: 45%;
+  right: -150%;
+  height: 5px;
+  width: 45px;
   border-radius: 1rem;
 }
 .popular .secContainer .mainContent .singleDetination .destfooter .destText {
@@ -143,6 +146,9 @@
   font-weight: 600;
   align-items: flex-start;
   transform: translateY(5px);
+}
+.popular .secContainer .mainContent .singleDetination .destfooter .destText .flex .icon {
+  color: var(--PrimaryColor);
 }
 .popular .secContainer .mainContent .singleDetination:hover .overlayInfo {
   overflow: visible;

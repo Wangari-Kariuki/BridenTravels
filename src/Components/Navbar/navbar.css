@@ -33,6 +33,7 @@
 .navbarSection .header .logoDiv .logo .icon {
   color: var(--PrimaryColor);
   font-size: 25px;
+  margin-right: 10px;
 }
 @media screen and (max-width: 768px) {
   .navbarSection .header .navBar {
@@ -100,6 +101,10 @@
     color: var(--WhiteColorDeam);
     left: 0;
   }
+}
+.navbarSection .activeHeader {
+  background: var(--WhiteColorDeam);
+  box-shadow: 0 2px 4px rgba(178, 178, 178, 0.45);
 }
 
 /*# sourceMappingURL=navbar.css.map */
